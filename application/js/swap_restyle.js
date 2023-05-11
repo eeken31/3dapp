@@ -132,25 +132,37 @@ function pepperDescription() {
 }
 
 function dark() {
-			var elements = document.getElementsByClassName('card'); // get all elements
+	document.getElementById('bodyColor').style.backgroundColor = "black";
+			var elements = document.getElementsByClassName('card');
+			var x = document.getElementsByClassName('card-header');
 					for(var i = 0; i < elements.length; i++){
 						elements[i].style.backgroundColor = "black";
 						elements[i].style.color = "white";
 						elements[i].style.borderColor = "white";
 					}
-			document.getElementById('bodyColor').style.backgroundColor = "black";
+					for(var j = 0; j < x.length; j++){
+						x[j].style.backgroundColor = "#2d2d30";
+
+					}
+			
 			
 			
 		}
 
 function light() {
-			var elements = document.getElementsByClassName('card'); // get all elements
+	document.getElementById('bodyColor').style.backgroundColor = "white";
+			var elements = document.getElementsByClassName('card'); 
+			var x = document.getElementsByClassName('card-header');
 			for(var i = 0; i < elements.length; i++){
 				elements[i].style.backgroundColor = "white";
 				elements[i].style.color = "black";
 				elements[i].style.borderColor = "black";
 			}
-			document.getElementById('bodyColor').style.backgroundColor = "white";
+			for(var j = 0; j < x.length; j++){
+				x[j].style.backgroundColor = "#00000008";
+				
+			}
+			
 
 		
 	}

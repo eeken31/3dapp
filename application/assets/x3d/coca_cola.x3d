@@ -83,7 +83,7 @@
 			           scale="1.000000 1.000000 1.000000"
 			           rotation="0.000000 1.000000 0.000000 0.000000"
 			           >
-				<Group DEF="group_ME_without_sides">
+				<Group DEF="CU">
 					<Shape>
 						<Appearance>
 							<Material DEF="MA_Top_of_Can"

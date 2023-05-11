@@ -61,5 +61,13 @@ $(document).ready(function(){
        $('.x3dCameraTitle').html('<h2>' + jsonObj.pageTextData[10].CameraTitle + '<h2>');
        $('.x3dCameraSubtitle').html('<p>' + jsonObj.pageTextData[10].CameraSubtitle + '<p');
 
+       //Get about contents 1 data
+       $('.about1Title').html('<h2>' + jsonObj.pageTextData[11].title + '<h2>');
+       $('.about1Description').html('<p>' + jsonObj.pageTextData[11].description + '<p');
+
+       //Get about contents 2 data
+       $('.about2Title').html('<h2>' + jsonObj.pageTextData[12].title + '<h2>');
+       $('.about2Description').html('<p>' + jsonObj.pageTextData[12].description + '<p');
+
     });
 });

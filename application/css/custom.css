@@ -198,35 +198,12 @@ h1, h2, h3, h4, h5, h6 {
 
     .navbar-text > p {
         color: rgb(255,255,255);
-        font-size: 14px;
+        font-size: 8px;
     }
 
     .copyright {
         padding-top: 8px;
         width: 60%;
-    }
-
-    .social {
-        padding-top: 0px;
-        width: 30%;   
-    }
-
-    .fa-twitter-square:before {
-        content: "\f081";
-        color: green;
-        font-size: 1em;
-    }
-
-    .fa-github-square:before {
-        content: "\f092"; 
-        color: yellow;
-        font-size: 1em;
-    }
-
-    .fa-facebook-square:before {
-        content: "\f082";
-        color: red;
-        font-size: 1em; 
     }
     
     /* Lifted form the bootsrap.css file, and modified to emulate the nav-bar menu styling */
@@ -244,9 +221,9 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     /* Added this to emulate the nav-bar link styling */
-    .nav-tabs .nav-link:hover {
-        color: green;
-        border: 1px solid transparent;
+
+    .btn-info {
+        background-color: #711f25 !important;
     }
 
     .camera-btns {
@@ -303,14 +280,6 @@ h1, h2, h3, h4, h5, h6 {
         height: auto;
     }
     
-    .gallery-header {
-        color: white;
-    }
-    
-    .gallery-header:hover {
-        color: green;
-        border: 1px solid transparent;
-    }
     
     .model3D  {
         background-color: rgba(255, 255, 255, 0.0); /* Adjust the transparency to bring the color forward */
@@ -318,15 +287,6 @@ h1, h2, h3, h4, h5, h6 {
         border: 0px solid rgba(0, 0, 0, 1.0);
         padding: 2px;
         height: 200px;
-    }
-
-    X3D, x3d {
-        background-color: rgba(255, 255, 255, 0.0); /* Adjust the transparency to bring the color forward */
-        border-radius: 5px;
-        border: 0px solid rgba(255, 0, 0, 1.0);
-        width: 100%;
-        height: 100%
-        
     }
 
 /* Small devices (landscape phones, 576px and up)
